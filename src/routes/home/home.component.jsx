@@ -1,10 +1,11 @@
+import { Outlet } from "react-router-dom";
 import Directory from "../../components/directory/directory.component";
-import "../../components/category-item/category-item.styles.scss";
 
 const Home = () => {
   return (
     <>
       <Directory />
+      <Outlet />
     </>
   );
 };
