@@ -25,6 +25,7 @@
     "redux-thunk": "^3.1.0",
     "reselect": "^5.1.1",
     "sass": "^1.89.0",
+    "stripe": "^18.3.0",
     "styled": "^1.0.0",
     "styled-components": "^6.1.19"
   },
