@@ -27,12 +27,13 @@
     "sass": "^1.89.0",
     "stripe": "^18.3.0",
     "styled": "^1.0.0",
-    "styled-components": "^6.1.19"
+    "styled-components": "^6.1.19",
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.4.1",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
