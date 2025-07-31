@@ -5,12 +5,18 @@ import ProductCard from "../../components/product-card/product-card.component";
 import {
   selectCategoriesIsLoading,
   selectCategoriesMap,
-} from "../../store/categories/category.selector.js";
-import { CategoryTitle, CategoryContainer } from "./category.styles.jsx";
-import Spinner from "../../components/spinner/spinner.component.jsx";
+} from "../../store/categories/category.selector";
+import { CategoryTitle, CategoryContainer } from "./category.styles";
+import Spinner from "../../components/spinner/spinner.component";
+
+type CategoryRouteParams = {
+  category: string;
+};
 
 const Category = () => {
-  const { category } = useParams();
+  const { category } = useParams<
+    keyof CategoryRouteParams
+  >() as CategoryRouteParams;
 
   const isLoading = useSelector(selectCategoriesIsLoading);
   const categoriesMap = useSelector(selectCategoriesMap);
