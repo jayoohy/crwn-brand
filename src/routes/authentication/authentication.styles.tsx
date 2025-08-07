@@ -9,5 +9,6 @@ export const AuthenticationContainer = styled.div`
   @media (max-width: 800px) {
     flex-direction: column;
     gap: 50px;
+    margin: 0;
   }
 `;

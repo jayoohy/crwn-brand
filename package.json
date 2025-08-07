@@ -7,7 +7,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-pwa-assets": "pwa-assets-generator --preset minimal public/logo.svg"
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal public/favicon.ico"
   },
   "dependencies": {
     "@stripe/react-stripe-js": "^3.7.0",
@@ -28,6 +28,7 @@
     "redux-thunk": "^3.1.0",
     "reselect": "^5.1.1",
     "sass": "^1.89.0",
+    "sharp": "^0.34.3",
     "stripe": "^18.3.0",
     "styled": "^1.0.0",
     "styled-components": "^6.1.19",
@@ -47,6 +48,11 @@
     "globals": "^16.0.0",
     "vite": "^6.3.5",
     "vite-plugin-babel-macros": "^1.0.6",
-    "vite-plugin-pwa": "^1.0.2"
+    "vite-plugin-pwa": "^1.0.2",
+    "workbox-core": "^7.3.0",
+    "workbox-window": "^7.3.0"
+  },
+  "overrides": {
+    "sharp-ico": "0.1.5"
   }
 }

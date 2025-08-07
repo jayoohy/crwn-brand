@@ -13,4 +13,7 @@ export const H2 = styled.h2`
 export const ButtonsContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 800px) {
+    width: 40vw;
+  }
 `;
