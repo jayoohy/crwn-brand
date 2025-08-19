@@ -1,4 +1,3 @@
-/// <reference types="jest" />
 import React from "react";
 import { screen } from "@testing-library/react";
 import { renderWithProviders } from "../../../utils/test/test.utils";
@@ -20,6 +19,4 @@ describe("cart icon tests", () => {
     const cartIconElement = screen.getByText("6");
     expect(cartIconElement).toBeInTheDocument();
   });
-
-  //   test("uses preloaded state to render", () => {});
 });
